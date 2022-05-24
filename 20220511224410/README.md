@@ -1,17 +1,16 @@
 # GPG
 
-Import secret key
-`gpg --import secret.key`
 
-List keys
-`gpg --list-keys`
-`gpg --list-secret-keys`
+## Commands
 
-Delete Keys
-`gpg --delete-keys`
-`gpg --delete-secret-keys`
+* `gpg --import <Key>` - Import secret key
 
-Trust an imported key
-`gpg --edit-key idkey`
+* `gpg --list-keys` - List public keys
+* `gpg --list-secret-keys` - List secret keys
 
-    #gpg #linux
+* `gpg --delete-secret-keys` - Delete secret keys
+* `gpg --delete-keys` - Delete public keys
+
+* `gpg --edit-key idkey` - Edit and type trust to add trust level into key
+
+#gpg #linux
